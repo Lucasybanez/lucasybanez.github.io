@@ -1,0 +1,279 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #efefef;
+}
+
+.flex-conteiner-nav{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+    justify-content:center;
+    align-items: center;
+
+    color: #333333;
+    font-size: 1.2rem;
+
+    position:fixed ;
+    width: 100%;
+
+    z-index: 1;
+}
+
+
+
+.caja3{
+    padding: 1% 0;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.caja3 li a{
+    text-decoration: none;
+    color: #333333
+ }
+
+ #comprar{
+    color: #2da546;
+ }
+.flex-conteiner2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.61)) , url(../img/font.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+    align-items: center;
+    justify-content: left;
+}
+
+.c2__img{
+    margin-left: 20%;
+    margin-right: 2%;
+    width: 22%;
+    border-radius: 50%;
+}
+
+.c2_caja1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+}
+
+.c2_caja1 h1{
+    font-size: 7rem;
+}
+
+.c2_caja2{
+    display: flex;
+    justify-content: left;
+}
+
+.c2_caja2_img{
+    width: 45%;
+}
+
+.titulo{
+    color: rgb(29, 29, 29);
+}
+
+.parrafo{
+    color: rgb(41, 41, 41);
+}
+
+.etiquetas{
+
+    border-radius: 5px;
+    padding: 1.2%;
+    margin: 0 0 0 2%;
+    color: rgb(43, 43, 43);
+    font-size: 0.7rem;
+    font-weight: bold;
+    background-color: #febe00;
+}
+
+#e_react{
+    background-color: #1da1b7;
+    color: white;
+}
+
+#e_negocios{
+    background-color: #929292;
+    color: white;
+}
+
+#e_startups{
+    background-color: #ff4765;
+    color: white;
+}
+
+.flex-conteiner4{
+    margin: 5% 3%;
+    display: flex;
+}
+
+.c4_caja1{
+    width: 50%;
+}
+
+.c4_caja2{
+    width: 50%;
+    padding: 1% 3% 0 1%;
+    background-color: white;
+
+
+    color: rgb(87, 87, 87);
+    font-size: 1.1rem;
+}
+
+.formulario{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2% 0;
+
+    color:#222222;
+}
+
+.formulario h2{
+    font-size: 2.4rem;
+}
+
+.paraInputs{
+    width: 44%;
+    margin: 1%;
+    height: 30px;
+    border: 1px #acacac solid;
+    border-radius: 3px;
+}
+
+.paraInputs::placeholder{
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.formulario textarea{
+    height: 100px;
+    width: 90%;
+}
+
+
+.formulario button{
+    height: 40px;
+    width: 90%;
+    margin: 1% 0;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(90deg,#1f3540,#235471);
+    
+}
+
+#navFooter{
+    margin: 0 auto;
+}
+
+#navFooter li a{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.estudios{
+    display: flex;
+    color: rgb(39, 39, 39);
+
+}
+
+.estudios_tit div{
+    margin: 0 5% 5% 5%;
+}
+
+.titulos{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .flex-conteiner-nav{
+        flex-direction: column;
+        position: static;
+    }
+
+    .flex-conteiner-nav img {
+        width: 40%;
+    }
+
+    .caja3{
+        margin: 10% 0;
+        display: block;
+        text-align: center;
+    }
+
+    .flex-conteiner2{
+        height: auto;
+        padding: 10% 0;
+
+    }
+    .c2_caja1{
+        padding: 10%;
+        margin: 0;
+        text-align: justify;
+        position: static;
+        top: 0; right: 0;
+        font-size: 1.1rem;
+    }
+
+    .c2_caja2{
+        position: static;
+        top: 0; right: 0;
+        text-align: center;
+    }
+
+    .flex-conteiner3{
+        height: auto;
+        display: block;
+    }
+
+    .c3_caja2, .c3_caja3, .c3_caja4{
+        width: auto;
+        margin: 5% 0;
+    }
+
+    .flex-conteiner4{
+        flex-direction: column;
+    }
+
+    .c4_caja1, .c4_caja2{
+        width: auto;
+        border: none;
+    }
+
+    .c4_caja2{
+        padding: 3%;
+    }
+
+    footer{
+        height: auto;
+        padding: 3%;
+    }
+
+    .formulario{
+        width: 97%;
+    }
+}
