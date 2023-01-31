@@ -212,6 +212,19 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+
+    .flex-conteiner2{
+        display: block;
+    }
+
+    .c2__img{
+        width: 50%;
+    }
+
+    .c2_caja1 h1{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
     
     .flex-conteiner-nav{
         flex-direction: column;
@@ -245,7 +258,6 @@ footer{
     .c2_caja2{
         position: static;
         top: 0; right: 0;
-        text-align: center;
     }
 
     .flex-conteiner3{
@@ -276,7 +288,7 @@ footer{
         padding: 3%;
     }
 
-    .formulario{
-        width: 97%;
+    .estudios{
+        display: block;
     }
 }
